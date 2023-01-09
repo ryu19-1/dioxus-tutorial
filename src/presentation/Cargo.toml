@@ -5,6 +5,9 @@ edition = "2021"
 
 [dependencies]
 business = { path = "../business" }
+domain = { path = "../domain" }
+infrastructure = { path = "../infrastructure" }
+external = { path = "../external" }
 dioxus = { version = "0.3.1", features = ["html"] }
 dioxus-router = { version = "0.3.0", features = ["web"] }
 dioxus-web = "0.3.0"

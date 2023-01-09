@@ -2,3 +2,7 @@
 name = "domain"
 version = "0.1.0"
 edition = "2021"
+
+[dependencies]
+infrastructure = { path = "../infrastructure" }
+external = { path = "../external" }

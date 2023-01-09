@@ -2,3 +2,8 @@
 name = "external"
 version = "0.1.0"
 edition = "2021"
+
+[dependencies]
+anyhow = "1.0.68"
+async-trait = "0.1.61"
+derive-new = "0.5.9"

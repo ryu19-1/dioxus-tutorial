@@ -1,7 +1,9 @@
-[package]
-name = "dioxus-tutorial"
-version = "0.1.0"
-edition = "2021"
+[workspace]
+members = [
+    "src/presentation",
+    "src/business",
+    "src/domain",
+    "src/infrastructure",
+    "src/external",
+]
 
-[dependencies]
-dioxus = { version = "0.2.4", features = ["web"] }

@@ -1,0 +1,10 @@
+[package]
+name = "dioxus-tutorial"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+business = { path = "../business" }
+dioxus = { version = "0.3.1", features = ["html"] }
+dioxus-router = { version = "0.3.0", features = ["web"] }
+dioxus-web = "0.3.0"

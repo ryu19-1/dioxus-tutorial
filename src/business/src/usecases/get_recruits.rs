@@ -11,6 +11,6 @@ pub struct GetRecruitsUseCase {
 #[async_trait]
 impl GetRecruits for GetRecruitsUseCase {
     async fn handle(&self) -> Result<()> {
-        todo!()
+        Ok(())
     }
 }
